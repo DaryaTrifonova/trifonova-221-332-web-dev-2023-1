@@ -1,0 +1,481 @@
+body {
+
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	margin: 0px 166px;
+}
+
+.header {
+	background-image: url(img/bg3.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-line {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+
+	justify-content: space-around;
+}
+
+
+.nav li {
+	float: left;
+	position: relative;
+
+	transition: display 0.3s linear;
+}
+
+.text-nav {
+	display: block;
+	padding: 6px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	background-color: red;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Sans Open' sans-serif;
+	color: white;
+
+
+}
+
+.nav li:hover ul {
+	display: block;
+	list-style-type: none;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+
+	margin-right: 25px;
+
+	transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+	color: #9a332e;
+}
+
+.cart {
+	position: relative;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 10px;
+	height: 50px;
+	margin-left: 25px;
+}
+
+.cart-img {
+	position: absolute;
+	top: 13px;
+	right: 7px;
+}
+
+.num {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+
+	transition: color 0.3s linear;
+}
+
+.num:hover {
+	color: #a1595a;
+}
+
+.date {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: sans-serif;
+	color: white;
+}
+
+.phone-text {
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	font-family: sans-serif;
+	margin-left: 250px;
+	margin-top: -20px;
+
+}
+
+.date {
+	margin-right: 150px;
+	margin-top: 10px;
+}
+
+.phone-holder {
+	display: flex;
+	align-items: center;
+}
+
+.header-down {
+	position: relative;
+}
+
+.header-title {
+	color: white;
+	/*cc3737*/
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 50px;
+
+	text-align: center;
+	position: absolute;
+	left: 70px;
+	margin-top: 152px;
+}
+
+.header-subtitle {
+	font-size: 60px;
+}
+
+.header-suptitle {
+	font-size: 18px;
+	color: #fdbdba;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 12px;
+}
+
+.header-suptitle:after {
+	position: absolute;
+	content: '';
+	height: 2px;
+	width: 61px;
+	background-color: #fdbdba;
+	top: 150px;
+	left: 56px;
+}
+
+.header-suptitle:before {
+	position: absolute;
+	content: '';
+	height: 2px;
+	width: 61px;
+	background-color: #fdbdba;
+	/*F48782*/
+	top: 150px;
+	right: 56px;
+}
+
+.header-button {
+	background-color: #cc3737;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 28px;
+	padding-left: 27px;
+	color: white;
+	font-size: 14px;
+
+	font-weight: 700;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+
+	transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+	background-color: #9a332e;
+}
+
+.cards-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	width: 349px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	margin-right: 31px;
+	background-color: #fff;
+	margin-top: -70px;
+	padding: 30px 10px;
+}
+
+.card-image {
+	display: flex;
+	justify-content: center;
+	padding-top: 31px;
+	padding-bottom: 20px;
+}
+
+.card-title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-family: 'Tinos', serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.card-desc {
+	text-align: center;
+	font-family: 'Tinos', serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #656363;
+}
+
+.card-title span {
+	color: #F48782;
+}
+
+.employee-title {
+	color: black;
+	font-weight: 700;
+	padding-top: 100px;
+	font-family: 'Tinos', serif;
+	font-size: 54px;
+	font-weight: 400;
+}
+
+.employee-title span {
+	color: #F48782;
+}
+
+.cards-holder1 {
+	display: flex;
+	justify-content: center;
+}
+
+.card1 {
+	width: 349px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	margin-right: 31px;
+	background-color: #fff;
+	margin-top: 70px;
+	padding: 30px 10px;
+}
+
+.card-image1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.card-title1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-family: 'Tinos', serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.card-desc1 {
+	text-align: center;
+	font-family: 'Tinos', serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #656363;
+}
+
+.employee {
+	margin-top: 70px;
+	padding-bottom: 200px;
+
+}
+
+.employee-subtitle {
+	margin-top: 70px;
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.employee-item {
+	margin-right: 80px;
+	text-align: center;
+	font-size: 40px;
+	color: #F48782;
+	font-family: 'Tinos' sans-serif;
+
+
+}
+
+.employee-subtitle span {
+	display: block;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.card-img1 {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 300px;
+	padding-bottom: 10px;
+}
+
+.black-block {
+	background-image: url(img/bg31.jpg);
+	padding: 80px 0;
+}
+
+.left-title {
+	font-family: 'Tinos', serif;
+	font-size: 52px;
+	font-weight: 400;
+	color: #F48782;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.left-text {
+	font-weight: 700;
+	font-size: 24px;
+	color: white;
+}
+
+.right-btn {
+	background-color: #cc3737;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 28px;
+	padding-left: 27px;
+	color: white;
+	font-size: 14px;
+
+	font-weight: 700;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+
+	transition: background-color 0.3s linear;
+}
+
+.right-btn:hover {
+	background-color: #9a332e;
+}
+
+.block-holder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.service-title {
+	font-family: 'Tinos', serif;
+	font-size: 54px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 132px;
+	margin-bottom: 139px;
+}
+
+.service-title span {
+	color: #F48782;
+}
+
+.dvig {
+	display: flex;
+	width: 500px;
+	height: 502px;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+}
+
+.service1 {
+	width: 200px;
+	height: 150px;
+}
+
+.service-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 26px;
+}
+
+.services-image {
+	margin-right: 20px;
+}
+
+.service-text {
+	margin-left: 20px;
+	font-family: 'Tinos', serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+
+.price-title {
+	font-family: 'Tinos', serif;
+	font-size: 54px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 132px;
+	margin-bottom: 100px;
+
+}
+
+.price-table {
+	width: 1150px;
+	text-align: center;
+	border-collapse: collapse;
+	font-family: 'Tinos', sans-serif;
+	font-size: 20px;
+	margin-bottom: 120px;
+}
+
+
+.price-table th,
+td {
+	border: 1px solid black;
+	height: 30px;
+}
+
+.price-table th {
+	background-color: #F48782;
+}
+
+.price-item {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.titles {
+	width: 950px;
+}
+
+.cost {
+	width: 200px;
+	font-family: 'Tinos', sans-serif;
+	text-align: center;
+	font-weight: 800;
+}
+
+footer {
+	background-image: url(img/bg31.jpg);
+	padding: 50px 0;
+}
+
+.footer-text {
+	color: grey;
+	text-align: center;
+	padding-top: 20px;
+}
