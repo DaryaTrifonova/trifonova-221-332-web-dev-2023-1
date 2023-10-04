@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" lang="ru">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style_auth.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Tinos:wght@400;700&display=swap"
+		rel="stylesheet">
+	<title>Форма обратной связи</title>
+</head>
+
+<body>
+    <div class = "container">
+        <form action="https://httpbin.org/post" method="POST">
+            <div class = "form">
+                <h1>Авторизация</h1>
+                <div class="data_block">
+                    <input type = "text" name = "name" class="name" placeholder="Логин">
+                    <input type = "password" name = "password" class="password" placeholder="Пароль">
+                </div>   
+
+                <div class="remember">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+
+                <div class="send">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
