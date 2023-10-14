@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" lang="ru">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style_form.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Tinos:wght@400;700&display=swap"
+		rel="stylesheet">
+	<title>Форма обратной связи</title>
+</head>
+
+<body>
+    <div class = "container">
+        <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
+            <div class = "form">
+                <h1>Есть вопросы? <span>Задавайте!</span></h1>
+                <div class="data_block">
+                    <input type = "text" name = "name" class="name" placeholder="Имя">
+                    <input type = "email" name = "email" class="mail" placeholder="E-mail">
+                    <input type = "tel" name = "tel" class="phone" placeholder="Телефон">
+                </div>   
+
+                <div class="know-us">
+                    <p class="know">Откуда вы узнали о нас?</p>
+                    <div class= "options">
+                        <input name = "radio" value="friends" type="radio" class = "radio" id="friends" checked>
+                        <label for="friends">Друзья</label> <br></br>
+
+                        <input name = "radio" value="internet" type="radio" class = "radio" id="internet">
+                        <label for="internet">Интернет</label> <br></br>
+
+                        <input name = "radio" value="other" type = "radio" class = "radio" id="other">
+                        <label for="other">Другое</label>
+                    </div>
+                </div>
+
+                <div class="select-reason">
+                    <p class="reason-p">С какой целью вы обращаететсь?</p>
+                    <select class = "select-btn" name="reason" id="reason">
+                        <option value="bad">Жалоба</option>
+                        <option value="good">Предложение</option>
+                    </select>
+                </div>
+                
+                <div class="text-area">
+                    <p class = "message">Сообщение</p>
+                    <textarea name = "message" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+
+                <div class="attachment">
+                    <p class = "attachment-p">Прикрепите файл</p>
+                    <input type="file" name="attachment" id="attachment">
+                </div>
+
+                <div class="agreement">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement">Даю согласие на обработку персональных данных</label>
+                </div>
+
+                <div class="send">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

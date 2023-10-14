@@ -1,0 +1,125 @@
+.header {
+    background-image: none;
+    height: 30vh;
+}
+
+.header-title {
+    margin-top: 60px;
+}
+
+.container {
+    margin: 0px 30px 30px 30px;
+}
+
+.nav {
+    display: none;
+}
+
+.cart {
+    display: none;
+}
+
+.header-line {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.phone-text {
+    margin-right: 235px;
+    margin-top: -20px;
+}
+
+.number {
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	font-family: sans-serif;
+	margin-top: -10px;
+
+}
+
+.date {
+    display: block;
+    text-align: center;
+}
+
+.header-btn {
+    display: none;
+}
+
+.phone-holder {
+	display: flex;
+	justify-content: space-between;
+    margin-right: 240px;
+   
+}
+
+.cards{
+    display:none;
+}
+
+.header-down{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.right-button{
+    display: none;
+}
+
+.service {
+    display: none;
+}
+
+.employee {
+	color: black;
+	font-weight: 700;
+	margin-top: none;
+	font-family: 'Tinos', serif;
+	font-size: 54px;
+	font-weight: 400;
+	text-align: center;
+    padding-bottom: 20px;
+}
+
+.employee-title{
+    text-align: center;
+}
+
+.black-block {
+    display: none;
+}
+
+.card1 {
+	width: 18%;
+    box-shadow: none;
+	background-color: #847f7f;
+	margin-top: 20px;
+    margin-right: 50px;
+}
+
+.cards-holder1 {
+    margin-left: 50px;
+}
+
+.employee-subtitle{
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.price{
+    text-align: center;
+}
+
+.price-table {
+    display: flex;
+    width: 900px;
+    text-align: center;
+}
+
+.footer-text{
+    margin-top: 30px;
+}
+
